@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(90deg,#c68213,rgb(203, 41, 41));
+    
+}
+.center{
+  position: absolute;
+  top:50%;
+  left:50%;
+  width: 400px;
+  transform: translate(-50%,-50%);
+   background:#f6ce1b;
+   border-radius: 10px;
+  
+}
+.center form{
+padding: 50px;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+form .txt_field1{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+.txt_field input {
+    width: 100%;
+}
+.txt_field1 input {
+    width: 100%;
+    border: none;
+}
+.txt_field label{
+    position: absolute;
+    color: #adadad;
+}
+.txt_field1 label{
+    position: absolute;
+    color: #adadad;
+}
+.txt_field p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+
+.txt_field1 p{
+    font-size: 20px;
+    color: red;
+    visibility: hidden;
+}
+form #user_error{
+ margin-top: 5px;
+ color: red;
+ background: rgba(225,0,0,0.1);
+ display: none;
+}
+form #password_error{
+    margin-top: 5px;
+    color:red;
+    background: rgba(225,0,0,0.1);
+    display: none;
+}
